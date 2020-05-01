@@ -25,3 +25,5 @@ const pointAlternative = (games) =>
   }, 0);
 
 console.log(pointAlternative(games));
+
+module.exports = { points, pointAlternative };
