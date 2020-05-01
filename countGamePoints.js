@@ -12,4 +12,16 @@ function points(games) {
   return points;
 }
 
-points(games);
+console.log(points(games));
+
+/**
+ * Sums the results of the matches given in an array
+ *
+ * @param {any} games Array matche results
+ */
+const pointAlternative = (games) =>
+  games.reduce((calc, current) => {
+    return (calc += current[0] > current[2] ? 3 : current[0] === current[2] ? 1 : 0);
+  }, 0);
+
+console.log(pointAlternative(games));
