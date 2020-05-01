@@ -42,3 +42,5 @@ console.log(testEven3(0.5));
 console.log(testEven3(1));
 console.log(testEven3(2));
 console.log(testEven3(-4));
+
+module.exports = { testEven, testEven2, testEven3 };
