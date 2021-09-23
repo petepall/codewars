@@ -5,7 +5,7 @@
 // It should look like this:
 
 // Sam Harris => S.H
-// Patrick Feeney => P.F
+// Patrick Feeney => P.F.
 
 function abbrevName(name) {
   console.log(name.split(" "));
